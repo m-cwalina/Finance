@@ -6,6 +6,7 @@ class IncomesController < ApplicationController
   def create
     @income = Income.new(income_params)
     @income.save
+    
   end
 
   private
